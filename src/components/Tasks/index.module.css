@@ -1,0 +1,115 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+}
+
+.form input {
+  width: 100%;
+
+  color: var(--white);
+  background: var(--gray-500);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: var(--gray-100);
+
+  padding: 1rem 0 1rem 1rem;
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+}
+
+.form button {
+  display: flex;
+  align-items: center;
+
+  color: var(--white);
+  background: var(--blue-700);
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 140%;
+
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 8px;
+
+  padding: 1rem;
+  margin-left: 0.5rem;
+}
+
+.form button svg {
+  margin-left: 0.5rem;
+}
+
+.form button:hover {
+  background: var(--blue-500);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.header .createdTasks {
+  color: var(--blue-500);
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+}
+
+.header .completedTasks {
+  color: var(--purple-500);
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+}
+
+.header strong {
+  color: var(--white);
+  background: var(--gray-400);
+
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+
+  padding: 2px 8px;
+  border-radius: 999px;
+
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 320px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form button {
+    justify-content: center;
+
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 276px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .createdTasks {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,24 @@
+.footer {
+  max-width: 70rem;
+
+  display: flex;
+  justify-content: end;
+
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.footer a {
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.footer a:hover {
+  color: var(--gray-300);
+}
