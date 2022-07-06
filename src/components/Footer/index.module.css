@@ -9,7 +9,7 @@
 }
 
 .footer a {
-  color: var(--white);
+  color: var(--gray-300);
 
   font-weight: 700;
   font-size: 0.875rem;
@@ -20,5 +20,5 @@
 }
 
 .footer a:hover {
-  color: var(--gray-300);
+  color: var(--gray-100);
 }
